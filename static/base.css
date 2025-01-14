@@ -58,7 +58,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: var(--font-weight-semi-bold);
 }
 
-h2 { margin-bottom: .5rem;}
+h2 { 
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
 
 h3 {
   margin-top: 2rem;
