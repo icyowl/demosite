@@ -1,0 +1,59 @@
+/* pagination */
+
+.paging {
+  display: flex;
+  justify-content: space-between;
+}
+
+.paging, .pagination {
+  font-family: var(--font-european);
+  margin-top: 2rem;
+}
+
+.paging a, .pagination a {
+  text-decoration: none;
+}
+
+/* tags */
+.meta {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.meta ul {
+  list-style: none;
+  margin-left: .5rem;
+  padding: 0;
+}
+
+.meta ul li {
+  display: inline;
+  margin: 0 2px 0 0;
+  padding: 0;
+}
+
+.tag-page ul {
+  list-style: none;
+  padding: 0;
+  margin-left: 1rem;
+}
+
+.tag-page div.meta p {
+  margin-top: .25rem;
+}
+
+.tags-page {
+  min-height: 8rem;
+}
+
+.tags-page a {
+  display: inline-block;
+  margin-left: .5rem;
+  padding: 0;
+  text-decoration: none;
+}
+
+.tags-page a:before {
+  content: '#';
+}
