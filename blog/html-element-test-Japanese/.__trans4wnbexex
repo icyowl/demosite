@@ -1,0 +1,129 @@
+<!doctype html>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../static/normalize.css">
+<link rel="stylesheet" href="../../static/base.css">
+<link rel="stylesheet" href="../../static/prism.css">
+<link rel="stylesheet" href="../../static/style.css">
+<title>Html要素の確認 — demo</title>
+<body>
+  <header>
+    <h1>概複素構造 Jの憂鬱</h1>
+    <nav>
+      <ul class="nav navbar-nav">
+        <li><a href="../../">Welcome</a></li>
+        
+          <li class="active"><a href="../">Blog</a></li>
+        
+          <li><a href="../../projects/">Projects</a></li>
+        
+          <li><a href="../../about/">About</a></li>
+        
+      </ul>
+    </nav>
+  </header>
+  <div class="page">
+    <script src="../../static/js/prism.js" defer></script>
+    
+  
+  <div class="blog-post">
+  
+    <h2>Html要素の確認</h2>
+  
+  <p class="meta">
+    written by
+    
+      Akira
+    
+    on 2023-01-11
+  </p>
+  
+    <p>M はシンプレクティック形式 ω を持ち、リーマン計量 g を持ち、概複素構造 J を持っているとする。ω と g 非退化であるから、それぞれはバンドル同型 TM → T*M を引き起こし、第一の写像を φω と書くと、内積 φω(u) = iuω = ω(u, •) により与えられる。</p>
+<!-- 
+私のウェストポイント事件への関与は、1830年10月26日の朝に遡ります。その日、私はいつもより少し遅れて、バターミルクの滝がある丘を散歩していました。天気はいわゆるインディアンの夏であったと記憶しています。落ち葉でさえ熱を放ち、その熱は私の足の裏から上昇し、金色に輝く霧が農家の周りを漂っていました。
+My professional involvement in the West Point affair dates from the morning of October the twenty-sixth, 1830. On that day, I was taking my usual walk - thought a little later than usual - in the hills surrounding Buttermilk Falls.
+I recall the weather as being Indian summier. The leaves gave off an actual heat, even the dead ones, and this heat rose through my soles and gilded the mist that banded the farmhouses.
+-->
+
+
+<h1>h1. 見出しTitle1</h1>
+<h2>h2. 見出しTitle2</h2>
+<h3>h3. 見出しTitle13</h3>
+<h4>h4. 見出しTitle14</h4>
+<h5>h5. 見出しTitle15</h5>
+<h6>h6. 見出しTitle16</h6>
+<hr />
+
+<h3>番号つきリスト</h3>
+<ol>
+<li>番号つきのリストです</li>
+<li>番号つきのリストです</li>
+</ol>
+<h3>番号なしリスト</h3>
+<ul>
+<li>番号なしのリストです</li>
+<li>番号なしのリストです</li>
+</ul>
+<h3>ネスト</h3>
+<ol>
+<li>番号付きのリストです<ul>
+<li>番号なしのリストです</li>
+<li>番号なしのリストです<ul>
+<li>番号なしのリストです</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<p>上記で議論したように比較的答えやすい</p>
+<h3>引用</h3>
+<blockquote><p>概複素構造の存在は、トポロジカルな問題であり、上記で議論したように比較的答えやすい。<a href="https://ja.wikipedia.org/wiki/%E6%A6%82%E8%A4%87%E7%B4%A0%E6%A7%8B%E9%80%A0">wikipedia</a></p>
+</blockquote>
+<h3>コード</h3>
+<pre><code class="lang-python">import numpy as np
+
+# Generate normally distributed random numbers:
+rng = np.random.default_rng()
+samples = rng.normal(size=2500)
+</code></pre>
+<h3>表</h3>
+<table>
+<thead><tr>
+<th>見出し</th>
+<th>見出し</th>
+<th>heading</th>
+<th>heading</th>
+<th>heading</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>要素</td>
+<td>要素</td>
+<td>element</td>
+<td>element</td>
+<td>element</td>
+</tr>
+<tr>
+<td>要素</td>
+<td>要素</td>
+<td>element</td>
+<td>element</td>
+<td>element</td>
+</tr>
+</tbody>
+</table>
+<h3>イメージ</h3>
+<p><img src="https://images.unsplash.com/photo-1671621105844-eafed5370151?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=640&amp;q=80" alt="unsplash"></p>
+
+  
+  </div>
+
+
+  </div>
+  <footer>
+    &copy; Copyright 2023 by Akira.
+  </footer>
+</body>

@@ -1,0 +1,67 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="../../static/style.css">
+<link rel="stylesheet" href="../../static/base.css">
+<link rel="stylesheet" href="../../static/override.css">
+<title>Pythonではじめるデータ分析 — demo</title>
+<body>
+  <header>
+    <h1>demosite</h1>
+    <nav>
+      <ul class="nav navbar-nav">
+        <li><a href="../../">Welcome</a></li>
+        
+          <li class="active"><a href="../">Blog</a></li>
+        
+          <li><a href="../../projects/">Projects</a></li>
+        
+          <li><a href="../../about/">About</a></li>
+        
+      </ul>
+    </nav>
+  </header>
+  <div class="page">
+    
+  
+  <div class="blog-post">
+  
+    <h2>Pythonではじめるデータ分析</h2>
+  
+  <p class="meta">
+    written by
+    
+      Aki
+    
+    on 2025-01-15
+  </p>
+  <p>『パターン認識と機械学習』の線形判別モデルを、Pythonで実装します。</p>
+<h3>I. 判別関数</h3>
+<ul>
+<li>最小二乗法</li>
+<li>フィッシャーの線形判別</li>
+<li>パーセプトロン</li>
+</ul>
+<h3>II. サンプル</h3>
+<pre><code class="lang-python">import matplotlib.pyplot as plt
+import seaborn as sns
+sns.set_theme()
+
+df = sns.load_dataset(&#39;iris&#39;)
+ax = sns.scatterplot(x=df.sepal_length, y=df.sepal_width, hue=df.species)
+
+ax.set_title(&quot;Fisher&#39;s Iris&quot;)
+plt.show()
+</code></pre>
+<h3>III. 散布図</h3>
+<p>線形判別モデルは、2 次元の散布図を直線で分離します。</p>
+<p><img src="https://i.pinimg.com/736x/d3/66/0d/d3660d713cb8c711903a1f2e5e82c1e5.jpg" alt="plot"></p>
+
+  </div>
+
+
+  </div>
+  <footer>
+    &copy; Copyright 2025 by Aki.
+  </footer>
+</body>

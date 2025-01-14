@@ -1,0 +1,84 @@
+<!doctype html>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../../static/style.css">
+<!-- <link rel="stylesheet" href="../../static/pygments.css"> -->
+<link rel="stylesheet" href="../../static/prism.css">
+<title>イントール — demo</title>
+<body>
+  <header>
+    <h1>blueberries</h1>
+    <nav>
+      <ul class="nav navbar-nav">
+        <li><a href="../../">Welcome</a></li>
+        
+          <li class="active"><a href="../">Blog</a></li>
+        
+          <li><a href="../../projects/">Projects</a></li>
+        
+          <li><a href="../../about/">About</a></li>
+        
+      </ul>
+    </nav>
+  </header>
+  <div class="page">
+    <script src="../../static/js/prism.js" defer></script>
+    
+  
+  <div class="blog-post">
+  
+    <h2>イントール</h2>
+  
+  <p class="meta">
+    written by
+    
+      Akira
+    
+    on 2022-11-26
+  </p>
+  
+    <blockquote><p>朝食の卵料理を作るぐらい簡単に、アイデアを形にできます。<a href="https://www.getlektor.com/">Offical</a>より</p>
+</blockquote>
+<p>Lektorのインストール要件は、環境にpython3.6以上、依存ライブラリはImagemagick or FFmpegです。必要な方へ、<a href="./">こちら</a>に解説と環境の構築手順を用意しています。</p>
+<p>カスタマイズに必要なコードの知識は、htmlとtemplate(jinja2)、 cssですが、この導入ガイドはコピー＆ペーストで進めるので、何となく意味が分かる程度で大丈夫です。</p>
+<p>pythonを書くことはありませんが、最初にpython製のpipxというツールを手に入れます。</p>
+<p>略</p>
+<pre><code class="language-">$ pipx install lektor
+</code></pre><p>早速プロジェクトを始めます。</p>
+<pre><code class="language-" >$ lektor <del>qickstart</del>
+</code></pre><p>英語が流れてきますが、難しいことは聞いていません。次のように対応します。</p>
+<pre><code class="language-">Step 1: A project needs a name. 
+訳：プロジェクトは名前が必要です。
+> Project Name: <mark>lektor-demo</mark> 
+
+Step 2: Your name. 
+訳：あなたの名前は..
+> Author Name [あなたの名前] :  <mark># 名前を入力 またはそのままリターン</mark> 
+
+Step 3: This is the path where the project will be located. 
+訳：プロジェクトを配置するパス
+> Project Path [プロジェクトのパス]:  <mark># そのままリターン</mark>
+
+Step 4: Do you want to generate a basic blog module? 
+訳：基本のブログモデルを生成する？
+> Add Basic Blog [Y/n]: <mark>y</mark>
+
+That's all. Create project? [Y/n] <mark>y</mark>
+訳：以上です。プロジェクトを作りますか？ 。
+</code></pre><p>作成されたwebサイトを、PCの中で立ちあげてみます。</p>
+<pre><code>$ cd lektor-demo
+$ lektor serve
+</code></pre><p>また英語が流れてきます。赤い文字でWARNING（警告）がでますが、「これは開発用サーバーです。成果物の公開には利用できません。」と言ってるので気にする必要はありません。</p>
+<pre><code>WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+</code></pre><p>ブラウザのアドレスバーに <code>http://127.0.0.1:5000</code> を入れてみます。</p>
+<p>図</p>
+
+  
+  </div>
+
+
+  </div>
+  <footer>
+    &copy; Copyright 2022 by Akira.
+  </footer>
+</body>
