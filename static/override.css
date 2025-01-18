@@ -58,6 +58,7 @@ h2, h3, h4, .meta, footer {
   color: var(--gray30);
 }
 
+
 header {
   display: flex;
   justify-content: space-between;
@@ -84,6 +85,11 @@ footer {
   font-family: var(--font-european);
   font-size: var(--fontsize-6);
 }
+
+.meta p, .meta ul {
+  margin: .25rem 0;
+}
+
 
 .pagination {
   font-family: var(--font-european);

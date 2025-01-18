@@ -63,6 +63,10 @@ h2 {
   margin-bottom: .5rem;
 }
 
+h2 a {
+  text-decoration: none;
+}
+
 h3 {
   margin-top: 2rem;
   margin-bottom: 1rem;
